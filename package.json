@@ -1,0 +1,29 @@
+{
+  "name": "cinemax-tcc-proxy",
+  "version": "1.0.0",
+  "description": "CineMax TCC Team - Sinhalasub & Streambox Auto Sync System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "cinemax",
+    "tcc",
+    "sinhalasub",
+    "movies",
+    "auto-upload"
+  ],
+  "author": "TCC TEAM",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "node-cron": "^3.0.3" 
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
